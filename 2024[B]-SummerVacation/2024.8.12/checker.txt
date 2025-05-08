@@ -1,0 +1,7 @@
+For every u, all of its children v satisfies [pos[v],pos[v]+siz[v]−1]∈[pos[u],pos[u]+siz[u]−1]. We can maintain this check by keeping track of the number of u which violates this condition, and check for each u using sets.
+Proof: We prove by induction. When u's children only consists of leaves, it is easy to see that this check ensures [pos[u],pos[u]+siz[u]−1] is a valid dfs order of the subtree of u. Then, we can merge the subtree of u into a large node with size siz[u] and continue the analysis above.
+
+First we check p1=1. Then, for each pair of adjacent elements p[i],p[i+1], fa(p[i+1]) must be an ancestor of pi. We can maintain this check by keeping track of the number of u
+ which violates this condition, and check for each i by checking whether pi is in the subtree of fa(pi+1).
+
+Proof: For any subtree u, we take any pi,pi+1 such that pi does not belong in subtree u, but pi+1 does. It follows that p[i+1]=u, since only the subtree of fa(u) has nodes that does not belong in subtree u. From this, we can gather that each subtree will be entered at most once (and form a continuous interval), and that the first visited node will be u, which is sufficient to say that p is a dfs order.

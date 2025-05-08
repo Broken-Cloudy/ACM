@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+#define int long long
+using namespace std;
+int T;
+signed main(){
+	freopen("5.in","r",stdin);freopen("5.out","w",stdout);
+	srand(time(0));
+	T=rand();
+	fclose(stdin);fclose(stdout);
+	return 0;
+}

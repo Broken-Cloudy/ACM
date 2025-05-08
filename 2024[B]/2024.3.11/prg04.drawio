@@ -1,0 +1,44 @@
+<mxfile host="Electron" modified="2024-03-12T07:16:02.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="NT8BvCgxI77EqjPxKLsm" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="7Y4Sv4SvczpreglUo6rh">
+    <mxGraphModel dx="937" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FUk3_6PucdqMjZkr8xZY-1" target="FUk3_6PucdqMjZkr8xZY-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-1" value="&lt;p style=&quot;margin: 1rem 0px; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;Noto Sans CJK&amp;quot;, &amp;quot;Source Han Sans&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 16px; text-align: start; color: rgba(0, 0, 0, 0.75);&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;有种方法可以保证范围内的每个合数都被删掉(在 bool 数组里面标记为非素数)而且任一合数只被&lt;/span&gt;&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#e70d0d&quot;&gt;“最小质因数 × 最大因数（非自己） = 这个合数”&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;的途径删掉。由于每个数只被筛一次，时间复杂度为&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: KaTeX_Main, &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 1.21em; line-height: 1.2; text-rendering: auto; border-color: currentcolor;&quot; class=&quot;katex&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot; aria-hidden=&quot;true&quot; class=&quot;katex-html&quot;&gt;&lt;span style=&quot;position: relative; width: min-content; display: inline-block; background-color: rgb(237, 224, 74);&quot; class=&quot;base&quot;&gt;&lt;span style=&quot;font-family: KaTeX_Math; font-style: italic; margin-right: 0.02778em;&quot; class=&quot;mord mathnormal&quot;&gt;O&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;mopen&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: KaTeX_Math; font-style: italic;&quot; class=&quot;mord mathnormal&quot;&gt;n&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;mclose&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;。即欧拉筛。&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="70" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FUk3_6PucdqMjZkr8xZY-2" target="FUk3_6PucdqMjZkr8xZY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-2" value="输入1000000个不同的数x，询问这1000000个数是否是素数，保证所有的数小于等于10的8次方" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="296.25" y="220" width="137.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FUk3_6PucdqMjZkr8xZY-4" target="FUk3_6PucdqMjZkr8xZY-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FUk3_6PucdqMjZkr8xZY-4" target="FUk3_6PucdqMjZkr8xZY-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-4" value="通过欧拉筛，可快速回馈答案。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="305" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-7" value="如果是素数，输出YES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-9" value="如果不是素数，输出NO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="430" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FUk3_6PucdqMjZkr8xZY-10" value="&lt;font color=&quot;#e81111&quot;&gt;程序可以保证所有的运算在1000ms内完成&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="510" y="220" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

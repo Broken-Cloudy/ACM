@@ -1,0 +1,27 @@
+
+/*
+bool check(int x){
+	
+}
+void dfs(int l,int r){
+	if(l==r){
+		ans=l;
+		return;
+	}
+	else if(l+1==r){
+		if(check(l))ans=l;
+		else ans=r;
+		return; 
+	}
+	else{
+		int mid=(l+r)/2;
+		if(check(mid))dfs(l,mid);
+		else dfs(mid,r);
+	}
+}
+*/
+
+			//mini=min(a[i],mini);
+			//maxx=max(a[i],maxx);
+
+		//dfs(0,maxx-mini);

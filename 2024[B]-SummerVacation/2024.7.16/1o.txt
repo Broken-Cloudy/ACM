@@ -1,0 +1,7 @@
+There is an n×m mirror maze, where there is a mirror on each grid. The mirrors are in one of the following four types:
+``-'', the light from above or below will be reflected back, the light from left or right will continue going forward without being reflected, respectively;
+``|'', the light from left or right will be reflected back, the light from above or below will continue going forward without being reflected, respectively;
+``/'', the light from left, right, above, below will be reflected to go above, below, left, right, respectively;
+``\'', the light from left, right, above, below will be reflected to go below, above, right, left, respectively.
+
+Now there are q light sources. Little G, the believer of the light, wants to know the numbers of different mirrors the emitted light will be reflected by within sufficient time for each light source.

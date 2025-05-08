@@ -1,0 +1,5 @@
+3 1
+int a;
+pair<int,int> E6;
+pair<pair<double,int>,pair<int,double>> __Fukami;
+__Fukami.first

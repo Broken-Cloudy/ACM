@@ -1,0 +1,31 @@
+<mxfile host="Electron" modified="2024-03-11T17:49:07.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RUBGl613a4uFDan82kA7" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="yf9QJvP6jj-Q-Al9-d1y">
+    <mxGraphModel dx="781" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2UX3JDH_yku9ild4F-sp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UX3JDH_yku9ild4F-sp-1" target="2UX3JDH_yku9ild4F-sp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UX3JDH_yku9ild4F-sp-1" value="输入n,表示求解n!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2UX3JDH_yku9ild4F-sp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UX3JDH_yku9ild4F-sp-2" target="2UX3JDH_yku9ild4F-sp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UX3JDH_yku9ild4F-sp-2" value="进入factorial函数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2UX3JDH_yku9ild4F-sp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UX3JDH_yku9ild4F-sp-4" target="2UX3JDH_yku9ild4F-sp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UX3JDH_yku9ild4F-sp-4" value="创建长整型ans=1;&lt;br&gt;循环i从1到n,并乘到ans上,得到答案ans" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2UX3JDH_yku9ild4F-sp-6" value="返回ans，输出结果" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

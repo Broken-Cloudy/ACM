@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2024-03-25T15:29:05.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="BL-k65ZtO1UTfKim7F41" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="VPSYm-6zMQTfO5EXKVS1">
+    <mxGraphModel dx="637" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Ij0xXdA7oB7KzAvpeT4-1" target="2Ij0xXdA7oB7KzAvpeT4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-1" value="输入n,表示有n个同学&lt;br&gt;（n&amp;lt;=10000）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Ij0xXdA7oB7KzAvpeT4-2" target="2Ij0xXdA7oB7KzAvpeT4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-2" value="跟随询问，输入第i位同学的姓名和三门成绩（1&amp;lt;=i&amp;lt;=n）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.994;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2Ij0xXdA7oB7KzAvpeT4-2" target="2Ij0xXdA7oB7KzAvpeT4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2Ij0xXdA7oB7KzAvpeT4-5" target="2Ij0xXdA7oB7KzAvpeT4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-5" value="for循环枚举每位同学的第一门成绩，进行加和，随后返回和除以人数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-7" value="&lt;font color=&quot;#f81240&quot;&gt;进入avg函数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ij0xXdA7oB7KzAvpeT4-8" value="输出求得的平均值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

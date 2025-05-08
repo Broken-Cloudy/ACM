@@ -1,0 +1,23 @@
+Little Q has X years of work experience and is currently unemployed. He wants to plan the career path for the next N years and then retire. More specifically, assume that today is the first day of the 1-st year, and Little Q will officially retire on the last day of the N-th year.
+
+There are M companies in total, the i-th of which will be founded on the first day in the L[i]-th year and go bankrupt after paying all the employees' payment on the last day of the R[i]-th year. That is, Little Q can start working for the company on the first day from the L[i]-th year to the R[i]-th year.
+
+Each company's fiscal year is from the first day to the last day of one year. An employee who starts on the first day and is still employed on the last day in one year will receive all the payments as a reward for working hard for a full year. Since Little Q is highly skilled, every company is willing to hire him at any time. However, Little Q only works for at most one company in a year and considers changing jobs after receiving all the payments on the last day of the year and being able to start at a different company on the first day of the next year. If he chooses to work for a company in a year, he will gain a year of work experience.
+
+Assume that, on the first day of some year, Little Q has Y years of work experience in total, and has already worked for Z full years continuously since the latest time being newly employed by the i-th company, and he will work for the i-th company in this full year:
+
+He will receive a payment of A[i]*Y+B[i] as a signing fee on the last day of this year if he is just newly employed, i.e. Z=0.
+
+He will receive a payment of C[i]*Y+D[i] as annual cash salary on the last day of the year. If the company goes bankrupt just on the last day of the year, he will also receive another cash payment of (Z+2)(C[i]*Y+D[i])/12 as compensation and then resign from the company.
+
+He will receive a payment of E[i]*Z+F[i] as annual bonus on the last day of the year if the company doesn't go bankrupt on this day.
+
+He will receive G[i]*Y+H[i] units of unvested stock shares as annual stock bonus on the last day of the year. The stock shares will be vested in equal portions upon Little Q along with the payments in each of the following I[i]
+​ years after the year receiving. Resigning from the company will automatically give up all the unvested stock shares, and sell all vested shares forcedly.
+
+The stock price for the i-th company in the j-th year is Pi,j per share, that is, sell p shares of stock of the i-th company in the j-th year will receive a payment of Pi,j*p, where p could be any positive real number. The price is updated on the first day of every year and remains valid for the entire year. The stock price is 0 if the company has not yet been founded or has already gone bankrupt. The only way to gain stock shares is from annual stock bonus, but he can choose to sell vested stock shares at any time at the current price as long as he is still working at this company. Little Q must sell all the remaining vested stock shares at that year's price when he resigns from the company.
+
+Additionally, the i-th company has non-compete restrictions, which means Little Q cannot work at the companies indexed in range [U[i],V[i]] in the next year if he resigns from the i-th company before the day he retires, or the company goes bankrupt:
+If there are surviving companies indexed in range [U[i],V[i]] but Little Q chooses to take a gap year in the next year, he will receive a one-time payment of J[i]*W+K[i] for the non-compete compensation since he has already worked for the company for W full years continuously since the latest time being newly employed by the i-th company. The gap year will not be counted in the number of years of work experience.
+Otherwise, he receives no non-compete compensation and cannot work in companies indexed in range within [U[i],V[i]] in the next year.
+You need to help Little Q design a career path that maximizes his total income for the next N years. The unsold stock shares will not be counted in Little Q's income.
